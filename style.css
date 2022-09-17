@@ -10,13 +10,25 @@ body {
   overflow: hidden;
   background-color: #A7A2A9;
 }
-body .row {
+body .container {
+  width: 95vw;
+  height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: clamp(10px, 2.5vw, 60px);
+  padding-bottom: clamp(10px, 2.5vw, 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: clamp(10px, 2.5vw, 60px);
+}
+body .container .row {
   display: flex;
   justify-content: center;
   gap: clamp(10px, 2.5vw, 60px);
   flex-basis: 1;
 }
-body .row .square {
+body .container .row .square {
   width: clamp(10px, 5vw, 60px);
   height: clamp(10px, 5vw, 60px);
   background-color: #232020;
