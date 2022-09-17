@@ -8,8 +8,7 @@ This small project belongs to the ActivelyInactive series, in which I've tried t
 
 ## Technologies
 
-HTML5
-
+- HTML5
 - CSS / SASS
 - JavaScript ES6
 - GSAP3
