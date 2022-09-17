@@ -10,7 +10,13 @@ body {
   overflow: hidden;
   background-color: #A7A2A9;
 }
-body .square {
+body .row {
+  display: flex;
+  justify-content: center;
+  gap: clamp(10px, 2.5vw, 60px);
+  flex-basis: 1;
+}
+body .row .square {
   width: clamp(10px, 5vw, 60px);
   height: clamp(10px, 5vw, 60px);
   background-color: #232020;

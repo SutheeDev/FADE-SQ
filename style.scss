@@ -9,9 +9,15 @@ body {
     height: 100vh;
     overflow: hidden;
     background-color: #A7A2A9;
-    .square {
-            width: $square;
-            height: $square;
-            background-color: #232020;
+    .row {
+        display: flex;
+        justify-content: center;
+        gap: clamp(10px, 2.5vw, 60px);
+        flex-basis: 1;
+        .square {
+                width: $square;
+                height: $square;
+                background-color: #232020;
+        }
     }
 }
